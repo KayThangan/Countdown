@@ -1,9 +1,7 @@
-# Smart Alarm
-
-Smart systems are automated systems that adapt to input data streams. Alarm clocks are an
-everyday item that we use to schedule our lives. The scope for a smart alarm clock that knows
-about our schedule for the day, knows what the weather will be and can tell the time has the
-potential to be very useful.
+# Countdown
+Countdown is a British TV game show broadcast by Channel 4. As part of the game, contestants
+are challenged to make the longest possible words by rearranging a set of letters selected by one
+of the contestants.
 
 ### Prerequisites
 
@@ -13,60 +11,29 @@ What things you need to install the software and how to install them
 install python 3.6.0+
 ```
 ```
-pip install flask
-```
-```
 pip install pylint
 ```
-
-### Installing
-
-You can create a virtual environment and install the required packages with the following commands:
-
-```
-$ virtualenv venv
-$ . venv/bin/activate
-(venv) $ pip install -r requirements.txt
-```
-
 
 ## Running the tests
 
 Running the main application
 ```
-cd SmartAlarm/src/
+cd Countdown/src/
 ```
 ```
 python app.py
 ```
 
-### Break down into end to end tests
-
-Running unit-testing file
-
-```
-cd SmartAlarm/src/
-```
-```
-python unit_testing.py
-```
-
 ### And coding style tests
 
 ```
-cd SmartAlarm/src/
+cd Countdown/src/
 ```
 ```
-pylint smart_alarm.py
+pylint countdown.py
 ```
-
-## Deployment
-
-Open a web browser and paste the local-host http link. E.g. http://127.0.0.1:5000/
 
 ## Built With
-
-* Flash
 * Python
 
 ## Contributing
@@ -78,4 +45,3 @@ Open a web browser and paste the local-host http link. E.g. http://127.0.0.1:500
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
