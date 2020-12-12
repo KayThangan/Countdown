@@ -21,7 +21,7 @@ Running the main application
 cd Countdown/src/
 ```
 ```
-python app.py
+python countdown.py
 ```
 
 ### And coding style tests
